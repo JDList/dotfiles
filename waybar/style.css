@@ -1,0 +1,50 @@
+/* Waybar fire theme */
+
+* {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 13px;
+}
+
+window#waybar {
+    background: rgba(15, 10, 6, 0.9);
+    color: #ffd7a0;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    color: #ffd7a0;
+}
+
+#workspaces button.active {
+    background: #ff5a1f;
+    color: #000000;
+}
+
+#clock,
+#cpu,
+#memory,
+#battery,
+#network {
+    padding: 0 10px;
+    margin: 0 3px;
+}
+
+#cpu {
+    color: #ff8c42;
+}
+
+#memory {
+    color: #ffb347;
+}
+
+#battery {
+    color: #ffa07a;
+}
+
+#clock {
+    color: #ffd7a0;
+}
+
+#network {
+    color: #ff784f;
+}
