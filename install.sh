@@ -2,7 +2,7 @@
 
 mkdir -p ~/.config
 
-sudo dnf install -y hyprland waybar tmux vifm vim-enhanced hyprpaper libreoffice rofi wofi wlogout wl-clipboard
+sudo dnf install -y hyprland waybar tmux vifm vim-enhanced hyprpaper libreoffice rofi wofi wlogout wl-clipboard dunst hyprlock hypridle papirus-icon-theme
 
 ln -sf ~/dotfiles/hypr ~/.config/hypr
 ln -sf ~/dotfiles/waybar ~/.config/waybar
