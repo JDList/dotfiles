@@ -4,7 +4,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu","memory","battery"],
+    "modules-right": ["cpu","temperature","memory","battery"],
 
     "clock": {
         "format": "{:%H:%M:%S  %d-%m-%Y}",
@@ -12,9 +12,15 @@
     },
     "battery": {
         "bat": "BAT0",
-        "format": "BAT {capacity}%"
-    },
+        "format": "NC {capacity}% {icon}",
+         "format-charging": "C {capacity}% {icon}",
+         "format-full": "F {capacity}% {icon}"
 
+    },
+    "temperature": {
+      "critical-threshold": 50,
+      "format": " {temperatureC}°C"
+    },
     "memory": {
         "format": "RAM {}%"
     },
